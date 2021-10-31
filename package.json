@@ -60,14 +60,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hypermedia-app/hydra-box-problem-details.git"
+    "url": "git+https://github.com/hypermedia-app/express-rdf-problem-details.git"
   },
   "author": "Tomasz Pluskiewicz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hypermedia-app/hydra-box-problem-details/issues"
+    "url": "https://github.com/hypermedia-app/express-rdf-problem-details/issues"
   },
-  "homepage": "https://github.com/hypermedia-app/hydra-box-problem-details#readme",
+  "homepage": "https://github.com/hypermedia-app/express-rdf-problem-details#readme",
   "mocha": {
     "watch-files": [
       "./**/*.ts"
