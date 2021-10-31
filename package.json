@@ -2,7 +2,6 @@
   "name": "express-rdf-problem-details",
   "description": "hydra-box error handler which returns HTTP Problem Details with JSON-LD context link",
   "version": "1.0.0",
-  "type": "module",
   "main": "main.js",
   "module": "index.js",
   "types": "index.d.ts",
@@ -73,7 +72,7 @@
       "./**/*.ts"
     ],
     "require": [
-      "mocha-setup.cjs"
+      "mocha-setup.js"
     ]
   },
   "lint-staged": {
