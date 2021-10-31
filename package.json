@@ -1,7 +1,7 @@
 {
-  "name": "ts-template",
+  "name": "express-rdf-problem-details",
+  "description": "hydra-box error handler which returns HTTP Problem Details with JSON-LD context link",
   "version": "0.0.0",
-  "private": true,
   "type": "module",
   "main": "main.js",
   "module": "index.js",
@@ -17,6 +17,11 @@
     "*.js",
     "*.d.ts"
   ],
+  "dependencies": {
+    "express-http-problem-details": "^0.2.1",
+    "http-problem-details-mapper": "^0.1.7",
+    "set-link": "^1.0.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.0",
@@ -25,9 +30,13 @@
     "@changesets/cli": "^2.17.0",
     "@tpluscode/eslint-config": "^0.3.0",
     "@types/chai": "^4.2.22",
+    "@types/express": "^4.17.13",
+    "@types/http-errors": "^1.8.1",
     "@types/mocha": "^9.0.0",
+    "@types/set-link": "^1",
     "@types/sinon": "^10.0.6",
     "@types/sinon-chai": "^3.2.5",
+    "@types/supertest": "^2.0.11",
     "@typescript-eslint/eslint-plugin": "^5.2.0",
     "@typescript-eslint/parser": "^5.2.0",
     "c8": "^7.10.0",
@@ -38,24 +47,27 @@
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.1",
+    "express": "^4.17.1",
     "husky": "^7.0.4",
+    "http-errors": "^1.8.0",
     "lint-staged": "^11.2.6",
     "mocha": "^9.1.3",
     "sinon": "^11.1.2",
     "sinon-chai": "^3.7.0",
     "standard": "^16.0.3",
+    "supertest": "^6.1.6",
     "typescript": "^4.3.4"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tpluscode/ts-template.git"
+    "url": "git+https://github.com/hypermedia-app/hydra-box-problem-details.git"
   },
   "author": "Tomasz Pluskiewicz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tpluscode/ts-template/issues"
+    "url": "https://github.com/hypermedia-app/hydra-box-problem-details/issues"
   },
-  "homepage": "https://github.com/tpluscode/ts-template#readme",
+  "homepage": "https://github.com/hypermedia-app/hydra-box-problem-details#readme",
   "mocha": {
     "watch-files": [
       "./**/*.ts"
