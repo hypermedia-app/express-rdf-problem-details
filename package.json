@@ -1,7 +1,7 @@
 {
   "name": "express-rdf-problem-details",
   "description": "hydra-box error handler which returns HTTP Problem Details with JSON-LD context link",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "main.js",
   "module": "index.js",
   "types": "index.d.ts",
