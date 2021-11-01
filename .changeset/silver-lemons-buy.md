@@ -1,5 +1,5 @@
 ---
-"express-rdf-problem-details": major
+"express-rdf-problem-details": patch
 ---
 
 First release
